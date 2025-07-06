@@ -1,4 +1,4 @@
-package aula1_exs;
+package aula1_exercicios_exemplos;
 
 public class Venda {
     String produto;
