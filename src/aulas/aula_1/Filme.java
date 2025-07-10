@@ -1,4 +1,4 @@
-package aula_1;
+package aulas.aula_1;
 
 public class Filme {
     String nome;

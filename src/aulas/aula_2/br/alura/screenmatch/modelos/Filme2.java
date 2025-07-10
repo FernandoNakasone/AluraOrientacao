@@ -1,4 +1,4 @@
-package aula_2.br.alura.screenmatch.modelos;
+package aulas.aula_2.br.alura.screenmatch.modelos;
 
 public class Filme2 {
     private String nome;
