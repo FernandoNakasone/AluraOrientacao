@@ -1,4 +1,4 @@
-package aula1_exercicios_exemplos;
+package exercicios_exemplos.aula1;
 
 public class MainCalculadora {
     public static void main(String[] args) {
