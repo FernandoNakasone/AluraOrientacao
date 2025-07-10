@@ -1,4 +1,4 @@
-package aulas.aula_3.modelos;
+package aulas.aula_3.br.alura.screenmatch.modelos2;
 
 public class Filme3 extends Titulo {
     private String diretor;

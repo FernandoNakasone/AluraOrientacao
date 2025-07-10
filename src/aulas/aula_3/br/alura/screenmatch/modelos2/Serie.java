@@ -1,4 +1,4 @@
-package aulas.aula_3.modelos;
+package aulas.aula_3.br.alura.screenmatch.modelos2;
 
 public class Serie extends Titulo{
     private int temporadas;
@@ -36,5 +36,10 @@ public class Serie extends Titulo{
 
     public void setMinutosPorEpisodios(int minutosPorEpisodios) {
         this.minutosPorEpisodios = minutosPorEpisodios;
+    }
+
+    @Override
+    public int getDuracaoEmMinutos(){
+        return temporadas * episodiasPorTemporada * minutosPorEpisodios;
     }
 }
