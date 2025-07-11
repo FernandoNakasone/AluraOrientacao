@@ -1,6 +1,6 @@
 package aulas.aula_4.br.alura.screenmatch.modelos3;
 
-import aulas.aula_3.br.alura.screenmatch.calculo.Classificavel;
+import aulas.aula_4.br.alura.screenmatch.calculo.Classificavel;
 
 public class Filme4 extends Titulo2 implements Classificavel {
     private String diretor;
@@ -16,6 +16,6 @@ public class Filme4 extends Titulo2 implements Classificavel {
 
     @Override
     public int getClassificacao() {
-        return 0;
+        return (int) pegaMedia() / 2;
     }
 }

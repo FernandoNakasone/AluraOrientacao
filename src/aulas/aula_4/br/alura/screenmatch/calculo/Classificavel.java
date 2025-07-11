@@ -1,4 +1,4 @@
-package aulas.aula_3.br.alura.screenmatch.calculo;
+package aulas.aula_4.br.alura.screenmatch.calculo;
 
 public interface Classificavel {
 

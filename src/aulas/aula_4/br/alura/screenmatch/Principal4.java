@@ -1,7 +1,9 @@
 package aulas.aula_4.br.alura.screenmatch;
 
 
+import aulas.aula_4.br.alura.screenmatch.calculo.FiltroRecomendacao;
 import aulas.aula_4.br.alura.screenmatch.calculo.CalculadoraDeTempo2;
+import aulas.aula_4.br.alura.screenmatch.modelos3.Episodio;
 import aulas.aula_4.br.alura.screenmatch.modelos3.Filme4;
 import aulas.aula_4.br.alura.screenmatch.modelos3.Serie2;
 
@@ -52,6 +54,14 @@ public class Principal4 {
         calculadora.inclui(serie1);
         System.out.println(calculadora.getTempoTotal());
 
+        FiltroRecomendacao filtro = new FiltroRecomendacao();
+        filtro.filtra(filme1);
+
+        Episodio ep = new Episodio();
+        ep.setNumero(1);
+        ep.setSerie(serie1);
+        ep.setTotalVisualizacoes(300);
+        filtro.filtra(ep);
 
     }
 }
