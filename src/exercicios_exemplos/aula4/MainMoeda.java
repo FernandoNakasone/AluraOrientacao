@@ -10,14 +10,13 @@ public class MainMoeda {
         DecimalFormat dF = new DecimalFormat("R$#,##0.00");
         Scanner sc = new Scanner(System.in);
 
-        double valorDolar;
 
         ConversorMoeda converte = new ConversorMoeda();
 
         System.out.print("Informe um valor em dolár para ser convertido para real:");
-        valorDolar = sc.nextDouble();
+        converte.setValorDolar(sc.nextDouble());
 
-        System.out.println("O valor de " + valorDolar + " doláres é de:" + dF.format(converte.converterDolarParaReal(valorDolar)));
+        System.out.println("O valor de " + converte.getValorDolar()+ " doláres é de:" + dF.format(converte.converterDolarParaReal()));
     }
 
 }
