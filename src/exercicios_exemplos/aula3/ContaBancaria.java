@@ -3,19 +3,11 @@ package exercicios_exemplos.aula3;
 import java.text.DecimalFormat;
 
 public class ContaBancaria {
-    private String nome;
     private double saldo;
 
-    public String getNome() {
-        return nome;
-    }
 
     public double getSaldo() {
         return saldo;
-    }
-
-    public void setNome(String nome) {
-        this.nome = nome;
     }
 
     public void setSaldo(double saldo) {
